@@ -1,0 +1,62 @@
+.Modal_On_Btn {
+	cursor: pointer;
+	border: none;
+	color: white;
+	background: #255bb9;
+	border-radius: 4px;
+	position: absolute;
+	width: 4%;
+	left: 48%;
+	height: 4%;
+	top: 48%;
+}
+
+.Modal_Off_Btn {
+	cursor: pointer;
+	border: none;
+	color: white;
+	background: #FF4949;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+.Modal {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background: white;
+	font-size: 25px;
+}
+
+.NotShowing {
+	display: none;
+}
+
+.Showing {
+	display: flex;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	cursor: pointer;
+}
+
+.content {
+	width: 20%;
+	z-index: 2;
+	padding: 50px 100px;
+	background-color: white;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
+}
